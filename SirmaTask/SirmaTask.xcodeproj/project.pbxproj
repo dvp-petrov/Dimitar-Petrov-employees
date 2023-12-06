@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DAB27AE2B20AA3F0036570F /* SirmaTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27AD2B20AA3F0036570F /* SirmaTaskApp.swift */; };
+		9DAB27B22B20AA420036570F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB27B12B20AA420036570F /* Assets.xcassets */; };
+		9DAB27B62B20AA420036570F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAB27B52B20AA420036570F /* Preview Assets.xcassets */; };
+		9DAB27C02B20AA420036570F /* SirmaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27BF2B20AA420036570F /* SirmaTaskTests.swift */; };
+		9DAB27CA2B20AA420036570F /* SirmaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27C92B20AA420036570F /* SirmaTaskUITests.swift */; };
+		9DAB27CC2B20AA420036570F /* SirmaTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27CB2B20AA420036570F /* SirmaTaskUITestsLaunchTests.swift */; };
+		9DAB27D92B20ADFB0036570F /* EmployeesCollaborationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27D82B20ADFB0036570F /* EmployeesCollaborationView.swift */; };
+		9DAB27DB2B20AE720036570F /* FilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27DA2B20AE720036570F /* FilePickerView.swift */; };
+		9DAB27DE2B20B43A0036570F /* CommonProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27DD2B20B43A0036570F /* CommonProjectsView.swift */; };
+		9DAB27E12B20D5BA0036570F /* EmployeesCollaborationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27E02B20D5BA0036570F /* EmployeesCollaborationViewModel.swift */; };
+		9DAB27E52B20D70C0036570F /* InputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27E42B20D70C0036570F /* InputRow.swift */; };
+		9DAB27E92B20E0D30036570F /* EmployeesCollaborationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27E82B20E0D30036570F /* EmployeesCollaborationRepository.swift */; };
+		9DAB27EB2B20E0EA0036570F /* LocalFileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27EA2B20E0EA0036570F /* LocalFileRepository.swift */; };
+		9DAB27EE2B2125230036570F /* Array+safeAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27ED2B2125230036570F /* Array+safeAt.swift */; };
+		9DAB27F02B2136FE0036570F /* String+detectDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27EF2B2136FE0036570F /* String+detectDates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DAB27BC2B20AA420036570F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DAB27A22B20AA3F0036570F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAB27A92B20AA3F0036570F;
+			remoteInfo = SirmaTask;
+		};
+		9DAB27C62B20AA420036570F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DAB27A22B20AA3F0036570F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DAB27A92B20AA3F0036570F;
+			remoteInfo = SirmaTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DAB27AA2B20AA3F0036570F /* SirmaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SirmaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB27AD2B20AA3F0036570F /* SirmaTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirmaTaskApp.swift; sourceTree = "<group>"; };
+		9DAB27B12B20AA420036570F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DAB27B32B20AA420036570F /* SirmaTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SirmaTask.entitlements; sourceTree = "<group>"; };
+		9DAB27B52B20AA420036570F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DAB27BB2B20AA420036570F /* SirmaTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SirmaTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB27BF2B20AA420036570F /* SirmaTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirmaTaskTests.swift; sourceTree = "<group>"; };
+		9DAB27C52B20AA420036570F /* SirmaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SirmaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB27C92B20AA420036570F /* SirmaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirmaTaskUITests.swift; sourceTree = "<group>"; };
+		9DAB27CB2B20AA420036570F /* SirmaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirmaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DAB27D82B20ADFB0036570F /* EmployeesCollaborationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCollaborationView.swift; sourceTree = "<group>"; };
+		9DAB27DA2B20AE720036570F /* FilePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerView.swift; sourceTree = "<group>"; };
+		9DAB27DD2B20B43A0036570F /* CommonProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProjectsView.swift; sourceTree = "<group>"; };
+		9DAB27E02B20D5BA0036570F /* EmployeesCollaborationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCollaborationViewModel.swift; sourceTree = "<group>"; };
+		9DAB27E42B20D70C0036570F /* InputRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRow.swift; sourceTree = "<group>"; };
+		9DAB27E82B20E0D30036570F /* EmployeesCollaborationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCollaborationRepository.swift; sourceTree = "<group>"; };
+		9DAB27EA2B20E0EA0036570F /* LocalFileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileRepository.swift; sourceTree = "<group>"; };
+		9DAB27ED2B2125230036570F /* Array+safeAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+safeAt.swift"; sourceTree = "<group>"; };
+		9DAB27EF2B2136FE0036570F /* String+detectDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+detectDates.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DAB27A72B20AA3F0036570F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB27B82B20AA420036570F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB27C22B20AA420036570F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DAB27A12B20AA3F0036570F = {
+			isa = PBXGroup;
+			children = (
+				9DAB27AC2B20AA3F0036570F /* SirmaTask */,
+				9DAB27BE2B20AA420036570F /* SirmaTaskTests */,
+				9DAB27C82B20AA420036570F /* SirmaTaskUITests */,
+				9DAB27AB2B20AA3F0036570F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAB27AB2B20AA3F0036570F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27AA2B20AA3F0036570F /* SirmaTask.app */,
+				9DAB27BB2B20AA420036570F /* SirmaTaskTests.xctest */,
+				9DAB27C52B20AA420036570F /* SirmaTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DAB27AC2B20AA3F0036570F /* SirmaTask */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27EC2B2125120036570F /* Extensions */,
+				9DAB27E62B20E0B40036570F /* Services */,
+				9DAB27E32B20D68F0036570F /* Models */,
+				9DAB27DF2B20D5A50036570F /* EmployeesCollaboration */,
+				9DAB27AD2B20AA3F0036570F /* SirmaTaskApp.swift */,
+				9DAB27B12B20AA420036570F /* Assets.xcassets */,
+				9DAB27B32B20AA420036570F /* SirmaTask.entitlements */,
+				9DAB27B42B20AA420036570F /* Preview Content */,
+			);
+			path = SirmaTask;
+			sourceTree = "<group>";
+		};
+		9DAB27B42B20AA420036570F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27B52B20AA420036570F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DAB27BE2B20AA420036570F /* SirmaTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27BF2B20AA420036570F /* SirmaTaskTests.swift */,
+			);
+			path = SirmaTaskTests;
+			sourceTree = "<group>";
+		};
+		9DAB27C82B20AA420036570F /* SirmaTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27C92B20AA420036570F /* SirmaTaskUITests.swift */,
+				9DAB27CB2B20AA420036570F /* SirmaTaskUITestsLaunchTests.swift */,
+			);
+			path = SirmaTaskUITests;
+			sourceTree = "<group>";
+		};
+		9DAB27DF2B20D5A50036570F /* EmployeesCollaboration */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27E22B20D6410036570F /* Subviews */,
+				9DAB27D82B20ADFB0036570F /* EmployeesCollaborationView.swift */,
+				9DAB27E02B20D5BA0036570F /* EmployeesCollaborationViewModel.swift */,
+			);
+			path = EmployeesCollaboration;
+			sourceTree = "<group>";
+		};
+		9DAB27E22B20D6410036570F /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27DA2B20AE720036570F /* FilePickerView.swift */,
+				9DAB27DD2B20B43A0036570F /* CommonProjectsView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		9DAB27E32B20D68F0036570F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27E42B20D70C0036570F /* InputRow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DAB27E62B20E0B40036570F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27E72B20E0C20036570F /* EmployeesCollaborationRepository */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9DAB27E72B20E0C20036570F /* EmployeesCollaborationRepository */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27E82B20E0D30036570F /* EmployeesCollaborationRepository.swift */,
+				9DAB27EA2B20E0EA0036570F /* LocalFileRepository.swift */,
+			);
+			path = EmployeesCollaborationRepository;
+			sourceTree = "<group>";
+		};
+		9DAB27EC2B2125120036570F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27ED2B2125230036570F /* Array+safeAt.swift */,
+				9DAB27EF2B2136FE0036570F /* String+detectDates.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAB27A92B20AA3F0036570F /* SirmaTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB27CF2B20AA420036570F /* Build configuration list for PBXNativeTarget "SirmaTask" */;
+			buildPhases = (
+				9DAB27A62B20AA3F0036570F /* Sources */,
+				9DAB27A72B20AA3F0036570F /* Frameworks */,
+				9DAB27A82B20AA3F0036570F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SirmaTask;
+			productName = SirmaTask;
+			productReference = 9DAB27AA2B20AA3F0036570F /* SirmaTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DAB27BA2B20AA420036570F /* SirmaTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB27D22B20AA420036570F /* Build configuration list for PBXNativeTarget "SirmaTaskTests" */;
+			buildPhases = (
+				9DAB27B72B20AA420036570F /* Sources */,
+				9DAB27B82B20AA420036570F /* Frameworks */,
+				9DAB27B92B20AA420036570F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DAB27BD2B20AA420036570F /* PBXTargetDependency */,
+			);
+			name = SirmaTaskTests;
+			productName = SirmaTaskTests;
+			productReference = 9DAB27BB2B20AA420036570F /* SirmaTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DAB27C42B20AA420036570F /* SirmaTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB27D52B20AA420036570F /* Build configuration list for PBXNativeTarget "SirmaTaskUITests" */;
+			buildPhases = (
+				9DAB27C12B20AA420036570F /* Sources */,
+				9DAB27C22B20AA420036570F /* Frameworks */,
+				9DAB27C32B20AA420036570F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DAB27C72B20AA420036570F /* PBXTargetDependency */,
+			);
+			name = SirmaTaskUITests;
+			productName = SirmaTaskUITests;
+			productReference = 9DAB27C52B20AA420036570F /* SirmaTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DAB27A22B20AA3F0036570F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9DAB27A92B20AA3F0036570F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					9DAB27BA2B20AA420036570F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9DAB27A92B20AA3F0036570F;
+					};
+					9DAB27C42B20AA420036570F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9DAB27A92B20AA3F0036570F;
+					};
+				};
+			};
+			buildConfigurationList = 9DAB27A52B20AA3F0036570F /* Build configuration list for PBXProject "SirmaTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DAB27A12B20AA3F0036570F;
+			productRefGroup = 9DAB27AB2B20AA3F0036570F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAB27A92B20AA3F0036570F /* SirmaTask */,
+				9DAB27BA2B20AA420036570F /* SirmaTaskTests */,
+				9DAB27C42B20AA420036570F /* SirmaTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DAB27A82B20AA3F0036570F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB27B62B20AA420036570F /* Preview Assets.xcassets in Resources */,
+				9DAB27B22B20AA420036570F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB27B92B20AA420036570F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB27C32B20AA420036570F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DAB27A62B20AA3F0036570F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB27E12B20D5BA0036570F /* EmployeesCollaborationViewModel.swift in Sources */,
+				9DAB27DB2B20AE720036570F /* FilePickerView.swift in Sources */,
+				9DAB27DE2B20B43A0036570F /* CommonProjectsView.swift in Sources */,
+				9DAB27EE2B2125230036570F /* Array+safeAt.swift in Sources */,
+				9DAB27E92B20E0D30036570F /* EmployeesCollaborationRepository.swift in Sources */,
+				9DAB27D92B20ADFB0036570F /* EmployeesCollaborationView.swift in Sources */,
+				9DAB27AE2B20AA3F0036570F /* SirmaTaskApp.swift in Sources */,
+				9DAB27E52B20D70C0036570F /* InputRow.swift in Sources */,
+				9DAB27EB2B20E0EA0036570F /* LocalFileRepository.swift in Sources */,
+				9DAB27F02B2136FE0036570F /* String+detectDates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB27B72B20AA420036570F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB27C02B20AA420036570F /* SirmaTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DAB27C12B20AA420036570F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAB27CC2B20AA420036570F /* SirmaTaskUITestsLaunchTests.swift in Sources */,
+				9DAB27CA2B20AA420036570F /* SirmaTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DAB27BD2B20AA420036570F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DAB27A92B20AA3F0036570F /* SirmaTask */;
+			targetProxy = 9DAB27BC2B20AA420036570F /* PBXContainerItemProxy */;
+		};
+		9DAB27C72B20AA420036570F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DAB27A92B20AA3F0036570F /* SirmaTask */;
+			targetProxy = 9DAB27C62B20AA420036570F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DAB27CD2B20AA420036570F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DAB27CE2B20AA420036570F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9DAB27D02B20AA420036570F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SirmaTask/SirmaTask.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SirmaTask/Preview Content\"";
+				DEVELOPMENT_TEAM = 86YCTQ49A5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvp.SirmaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9DAB27D12B20AA420036570F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SirmaTask/SirmaTask.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SirmaTask/Preview Content\"";
+				DEVELOPMENT_TEAM = 86YCTQ49A5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvp.SirmaTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9DAB27D32B20AA420036570F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86YCTQ49A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvp.SirmaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SirmaTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SirmaTask";
+			};
+			name = Debug;
+		};
+		9DAB27D42B20AA420036570F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86YCTQ49A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvp.SirmaTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SirmaTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SirmaTask";
+			};
+			name = Release;
+		};
+		9DAB27D62B20AA420036570F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86YCTQ49A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvp.SirmaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SirmaTask;
+			};
+			name = Debug;
+		};
+		9DAB27D72B20AA420036570F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86YCTQ49A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvp.SirmaTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SirmaTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DAB27A52B20AA3F0036570F /* Build configuration list for PBXProject "SirmaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB27CD2B20AA420036570F /* Debug */,
+				9DAB27CE2B20AA420036570F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB27CF2B20AA420036570F /* Build configuration list for PBXNativeTarget "SirmaTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB27D02B20AA420036570F /* Debug */,
+				9DAB27D12B20AA420036570F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB27D22B20AA420036570F /* Build configuration list for PBXNativeTarget "SirmaTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB27D32B20AA420036570F /* Debug */,
+				9DAB27D42B20AA420036570F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB27D52B20AA420036570F /* Build configuration list for PBXNativeTarget "SirmaTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAB27D62B20AA420036570F /* Debug */,
+				9DAB27D72B20AA420036570F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DAB27A22B20AA3F0036570F /* Project object */;
+}
