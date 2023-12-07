@@ -22,6 +22,12 @@
 		9DAB27EB2B20E0EA0036570F /* LocalFileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27EA2B20E0EA0036570F /* LocalFileRepository.swift */; };
 		9DAB27EE2B2125230036570F /* Array+safeAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27ED2B2125230036570F /* Array+safeAt.swift */; };
 		9DAB27F02B2136FE0036570F /* String+detectDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27EF2B2136FE0036570F /* String+detectDates.swift */; };
+		9DAB27F22B21C79F0036570F /* EmployeesCollaboration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27F12B21C79F0036570F /* EmployeesCollaboration.swift */; };
+		9DAB27F52B21C7C10036570F /* EmployeesCollaborationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27F42B21C7C10036570F /* EmployeesCollaborationService.swift */; };
+		9DAB27F72B21DF360036570F /* Calendar+numberOfDaysBetweenDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27F62B21DF360036570F /* Calendar+numberOfDaysBetweenDates.swift */; };
+		9DAB27FB2B21FF9E0036570F /* TotalCollaborationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27FA2B21FF9E0036570F /* TotalCollaborationView.swift */; };
+		9DAB27FD2B220B570036570F /* CommonProjectsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27FC2B220B570036570F /* CommonProjectsHeaderView.swift */; };
+		9DAB27FF2B22112E0036570F /* CommonProjectsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAB27FE2B22112E0036570F /* CommonProjectsItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		9DAB27EA2B20E0EA0036570F /* LocalFileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileRepository.swift; sourceTree = "<group>"; };
 		9DAB27ED2B2125230036570F /* Array+safeAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+safeAt.swift"; sourceTree = "<group>"; };
 		9DAB27EF2B2136FE0036570F /* String+detectDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+detectDates.swift"; sourceTree = "<group>"; };
+		9DAB27F12B21C79F0036570F /* EmployeesCollaboration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCollaboration.swift; sourceTree = "<group>"; };
+		9DAB27F42B21C7C10036570F /* EmployeesCollaborationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCollaborationService.swift; sourceTree = "<group>"; };
+		9DAB27F62B21DF360036570F /* Calendar+numberOfDaysBetweenDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+numberOfDaysBetweenDates.swift"; sourceTree = "<group>"; };
+		9DAB27FA2B21FF9E0036570F /* TotalCollaborationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCollaborationView.swift; sourceTree = "<group>"; };
+		9DAB27FC2B220B570036570F /* CommonProjectsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProjectsHeaderView.swift; sourceTree = "<group>"; };
+		9DAB27FE2B22112E0036570F /* CommonProjectsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProjectsItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +175,9 @@
 			children = (
 				9DAB27DA2B20AE720036570F /* FilePickerView.swift */,
 				9DAB27DD2B20B43A0036570F /* CommonProjectsView.swift */,
+				9DAB27FA2B21FF9E0036570F /* TotalCollaborationView.swift */,
+				9DAB27FC2B220B570036570F /* CommonProjectsHeaderView.swift */,
+				9DAB27FE2B22112E0036570F /* CommonProjectsItemView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -171,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				9DAB27E42B20D70C0036570F /* InputRow.swift */,
+				9DAB27F12B21C79F0036570F /* EmployeesCollaboration.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +194,7 @@
 		9DAB27E62B20E0B40036570F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				9DAB27F32B21C7B80036570F /* EmployeesCollaborationService */,
 				9DAB27E72B20E0C20036570F /* EmployeesCollaborationRepository */,
 			);
 			path = Services;
@@ -197,8 +214,17 @@
 			children = (
 				9DAB27ED2B2125230036570F /* Array+safeAt.swift */,
 				9DAB27EF2B2136FE0036570F /* String+detectDates.swift */,
+				9DAB27F62B21DF360036570F /* Calendar+numberOfDaysBetweenDates.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DAB27F32B21C7B80036570F /* EmployeesCollaborationService */ = {
+			isa = PBXGroup;
+			children = (
+				9DAB27F42B21C7C10036570F /* EmployeesCollaborationService.swift */,
+			);
+			path = EmployeesCollaborationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,15 +358,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAB27E12B20D5BA0036570F /* EmployeesCollaborationViewModel.swift in Sources */,
+				9DAB27FB2B21FF9E0036570F /* TotalCollaborationView.swift in Sources */,
 				9DAB27DB2B20AE720036570F /* FilePickerView.swift in Sources */,
 				9DAB27DE2B20B43A0036570F /* CommonProjectsView.swift in Sources */,
+				9DAB27FF2B22112E0036570F /* CommonProjectsItemView.swift in Sources */,
 				9DAB27EE2B2125230036570F /* Array+safeAt.swift in Sources */,
 				9DAB27E92B20E0D30036570F /* EmployeesCollaborationRepository.swift in Sources */,
+				9DAB27FD2B220B570036570F /* CommonProjectsHeaderView.swift in Sources */,
 				9DAB27D92B20ADFB0036570F /* EmployeesCollaborationView.swift in Sources */,
 				9DAB27AE2B20AA3F0036570F /* SirmaTaskApp.swift in Sources */,
+				9DAB27F52B21C7C10036570F /* EmployeesCollaborationService.swift in Sources */,
 				9DAB27E52B20D70C0036570F /* InputRow.swift in Sources */,
 				9DAB27EB2B20E0EA0036570F /* LocalFileRepository.swift in Sources */,
+				9DAB27F22B21C79F0036570F /* EmployeesCollaboration.swift in Sources */,
 				9DAB27F02B2136FE0036570F /* String+detectDates.swift in Sources */,
+				9DAB27F72B21DF360036570F /* Calendar+numberOfDaysBetweenDates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
