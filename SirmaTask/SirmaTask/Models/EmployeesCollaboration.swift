@@ -8,6 +8,10 @@
 import Foundation
 
 struct EmployeesCollaboration {
+    
+    // Model used in SwiftUI ForEach.
+    let id = UUID()
+    
     let firstEmployeeId: String
     let secondEmployeeId: String
     let projectId: String
